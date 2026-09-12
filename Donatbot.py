@@ -11,7 +11,7 @@ from aiogram.fsm.storage.memory import MemoryStorage
 # --- KONFIGURATSIYA ---
 # Tokenni xavfsiz holatda Server Muhitidan (Environment Variable) olamiz.
 TOKEN = os.getenv("BOT_TOKEN", "8762818454:AAFm6BlEd2ijfiZ7BvHGr7U152c8jzaE07M")
-ADMINS = [6225462652]  # Admin Telegram ID si
+ADMINS = [8861449444]  # Admin Telegram ID si
 
 logging.basicConfig(level=logging.INFO)
 bot = Bot(token=TOKEN)
